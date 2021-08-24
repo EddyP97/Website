@@ -1,0 +1,306 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #336666;
+}
+
+
+.App {
+  background-color: lightcyan;
+}
+
+
+.ContentHeader {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: linear-gradient(#336666D9, #1ca2a7D9, #336666D9),url(BackgroundGradient.jpg);
+  background-attachment: fixed;
+  height: 700px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.Nav {
+  align-self: start;
+  height: 15%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  
+}
+
+.NavButton {
+  padding: 0 1%;
+  color: #ffffff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Profile{
+  display: flex;
+  width: 100%;
+  max-height: 50%;
+  justify-content: flex-end;
+  padding: 0 0%;
+}
+
+.Profile img{
+  height: 100%;
+  width: auto;
+  border-radius: 25%;
+  margin: 0 3%;
+  box-shadow: -10px 10px 30px #000000;
+}
+
+.Me {
+  display: flex;
+  height: 100%;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Name {
+  color: #ffffff;
+  font-size: 80px;
+  font-family: monospace;
+  align-items: center;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.Description {
+  font-family: monospace, Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 0;
+}
+
+.Contact {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Contact img {
+  width: 100px;
+  height: 100px;
+  box-shadow: none;
+}
+
+.About {
+  height: 700px;
+  background-image: url("BackgroundAbout.jpg");
+  background-color: #4c4c4c;
+  clip-path: polygon(0% 0%, 5% 5%, 10% 0%, 15% 5%, 20% 0%, 25% 5%, 30% 0%, 35% 5%, 40% 0%, 45% 5%, 50% 0%, 55% 5%, 60% 0%, 65% 5%,
+  70% 0%, 75% 5%, 80% 0%, 85% 5%, 90% 0%, 95% 5%, 100% 0%, 100% 100%, 95% 95%, 90% 100%, 85% 95%, 80% 100%, 75% 95%, 70% 100%, 65% 95%,
+  60% 100%, 55% 95%, 50% 100%, 45% 95%, 40% 100%, 35% 95%, 30% 100%, 25% 95%, 20% 100%, 15% 95%, 10% 100%, 5% 95%, 0% 100%);
+  padding-top: 125px;
+  padding-bottom: 125px;
+  margin: -50px 0;
+}
+
+.AboutSection {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 100%;
+  margin: 0 5%;
+  align-items: center;
+}
+
+.AboutText {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  height: 100%;
+  margin-left: 10%;
+  justify-content: center;
+}
+
+.Title {
+  font-family: 'Segoe Print', Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+  padding: 10px 0;
+  color: #ffffff;
+}
+
+.AboutDescription {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  color: #ffffff;
+  padding-top: 10px;
+  height: 100%;
+}
+
+.StartPicture {
+  display: flex;
+  width: 25%;
+  height: 80%;
+  justify-content: center;
+}
+
+.StartPicture img {
+  height: 100%;
+  width: auto;
+  border-radius: 25%;
+}
+
+.Skills {
+  height: 1100px;
+  background-image: url("BackgroundGradient.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.SkillsSection {
+  display: flex;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  margin: 0 5%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.DifferentSkills {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: center;
+  align-content: center;
+}
+
+.Card {
+  width: 250px;
+  height: 350px;
+  justify-content: center;
+  background-color: #ebf3ff;
+  border-radius: 15% 5%;
+  box-shadow: -0px 0px 8px .75rem #00000040;
+  margin: 20px;
+  font-family: 'Lucida Handwriting', Georgia, 'Times New Roman', Times, serif;
+}
+
+.CardPerson {
+  width: 400px;
+}
+
+.SkillImage {
+  display: flex;
+  width: 100%;
+  height: 130px;
+  justify-content: center;
+  padding: 10px 12.5px;
+  background-color: #a9afb8;
+  border-radius: 15% 5% 0 0;
+}
+
+.SkillImage img {
+  width: 100px;
+  height: 110px;
+  float: center;
+  
+}
+.CardContent {
+  display: flex;
+  border-top: 1px solid #55585e4d;
+  width: 100%;
+  height: 220px;
+  padding: .75rem 1.25rem;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.ProgressBar {
+  text-align: end;
+  height: 50px;
+  margin-top: auto;
+}
+
+.PersonalSkills {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.PersonalHeader {
+  font-size: 28px;
+  align-items: center;
+  height: 80px;
+}
+
+.PersonalSkillsContent {
+  height: 270px;
+}
+
+.Projects {
+  width: 100%;
+  height: 1000px;
+  background-image: url("BackgroundAbout.jpg");
+  background-color: #4c4c4c;
+  margin-top: -50px;
+  padding-top: 125px;
+  padding-bottom: 125px;
+  clip-path: polygon(0% 0%, 5% 5%, 10% 0%, 15% 5%, 20% 0%, 25% 5%, 30% 0%, 35% 5%, 40% 0%, 45% 5%, 50% 0%, 55% 5%, 60% 0%, 65% 5%,
+  70% 0%, 75% 5%, 80% 0%, 85% 5%, 90% 0%, 95% 5%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.ProjectSection {
+  display: flex;
+  width: 80%;
+  height: 100%;
+  margin-left: 15%;
+  margin-right: 5%;
+  flex-direction: column;
+}
+
+.Project {
+  display: flex;
+  width: 100%;
+  height: 250px;
+  border: 3px solid #ffffff;
+  margin-top: 100px;
+  color: #ffffff;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.ProjectName {
+  height: 30%;
+  font-size: 40px;
+  align-content: flex-end;
+  text-decoration: underline;
+  font-family: 'Verdana', Georgia, 'Times New Roman', Times, serif;
+}
+
+.ProjectDescription {
+  display: flex;
+  width: 100%;
+  height: 70%;
+  flex-direction: row;
+}
+
+.ProjectText {
+  width: 80%;
+  margin: 0;
+  font-size: 20px;
+}
+
+.ProjectDescription img {
+  width: 20%;
+}
+
+.SecondProject {
+  align-items: flex-end;
+}
+
+.ProjectDescriptionSecond {
+  flex-direction: row-reverse;
+}
